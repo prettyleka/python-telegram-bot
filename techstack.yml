@@ -1,7 +1,8 @@
 repo_name: prettyleka/python-telegram-bot
 report_id: 6dc8f238cb310d9f219ea29b98609e18
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-11T05:32:32+00:00'
+timestamp: '2024-01-05T08:51:51+00:00'
 requested_by: tsnoam
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Noam Meltzer
   last_updated_on: 2016-05-29 21:49:29.000000000 Z
@@ -40,7 +43,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1002/tornado.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Kirill Vasin
   last_updated_on: 2018-09-08 20:25:48.000000000 Z
@@ -52,6 +55,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/codecov.yml
   detection_source: codecov.yml
   last_updated_by: Eldinnie
   last_updated_on: 2018-02-19 20:30:28.000000000 Z
@@ -63,6 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -72,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Noam Meltzer
   last_updated_on: 2016-05-29 21:49:29.000000000 Z
@@ -84,6 +90,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: leandrotoledo
   last_updated_on: 2016-01-06 14:05:09.000000000 Z
@@ -95,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Noam Meltzer
   last_updated_on: 2016-05-29 21:49:29.000000000 Z
@@ -107,6 +115,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Jannik
   last_updated_on: 2018-02-18 15:11:04.000000000 Z
@@ -118,6 +127,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: Leandro Toledo
   last_updated_on: 2016-05-15 00:59:08.000000000 Z
@@ -131,7 +141,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: requirements-dev.txt
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements-dev.txt
   detection_source: requirements-dev.txt
   last_updated_by: Eldinnie
   last_updated_on: 2019-02-14 10:00:21.000000000 Z
@@ -144,6 +154,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot
   detection_source: Repo Metadata
 - name: Sphinx
   description: Open source full text search server, designed from the ground up with
@@ -154,37 +165,40 @@ tools:
   category: Application Utilities
   sub_category: Search Engines
   image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/docs/requirements-docs.txt
   detection_source: docs/requirements-docs.txt
   last_updated_by: Jasmin Bom
   last_updated_on: 2019-02-18 19:04:52.000000000 Z
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/certifi
+  package_url: https://pypi.org/project/certifi
   license: MPL-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Noam Meltzer
   last_updated_on: 2016-05-29 21:49:29.000000000 Z
 - name: cryptography
   description: Cryptography is a package which provides cryptographic recipes and
     primitives to Python developers
-  package_url: https://pypi.org/cryptography
+  package_url: https://pypi.org/project/cryptography
   license: BSD-3-Clause,Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Eldinnie
   last_updated_on: 2018-08-29 12:18:58.000000000 Z
 - name: future
   description: Clean single-source support for Python 3 and 2
-  package_url: https://pypi.org/future
+  package_url: https://pypi.org/project/future
   version: 0.16.0
   license: MIT
   open_source: true
@@ -192,7 +206,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19839/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Noam Meltzer
   last_updated_on: 2017-06-22 22:48:24.000000000 Z
@@ -205,13 +219,14 @@ tools:
     first_patched: 0.18.3
 - name: sphinx_rtd_theme
   description: Read the Docs theme for Sphinx
-  package_url: https://pypi.org/sphinx_rtd_theme
+  package_url: https://pypi.org/project/sphinx_rtd_theme
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/prettyleka/python-telegram-bot/blob/master/docs/requirements-docs.txt
   detection_source: docs/requirements-docs.txt
   last_updated_by: Jasmin Bom
   last_updated_on: 2019-02-18 19:04:52.000000000 Z
